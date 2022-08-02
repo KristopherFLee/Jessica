@@ -1,2 +1,12 @@
-h1 {color:pink}
-body {background-color: rebeccapurple;display: flex; justify-content:center; align-items: center;}
+h1 {
+  color:pink;
+}
+body {
+  background-color: rebeccapurple; display: table-cell; vertical-align: middle;
+}
+html, body {
+  height: 100%;
+}
+html {
+  display: table; margin: auto;
+}
